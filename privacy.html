@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Privacy Policy · Garuda 360 &amp; Garuda Vision</title>
+<meta name="theme-color" content="#07080c">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<canvas id="sky" aria-hidden="true"></canvas>
+<div class="grain" aria-hidden="true"></div>
+<header class="nav" id="nav">
+  <div class="wrap bar">
+    <a class="brand" href="index.html" aria-label="Home"><img src="assets/logo.png" alt="Garuda 360"></a>
+    <nav class="links" id="links">
+      <a href="index.html#about">About</a><a href="index.html#channels">Channels</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a>
+    </nav>
+    <a class="btn btn-gold cta" data-link="garuda360" href="https://www.youtube.com/channel/UCZ1MWcl46VDxFjN_WzUPRsQ?sub_confirmation=1" target="_blank" rel="noopener">Subscribe</a>
+    <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<main>
+<div class="doc-hero wrap"><div class="kicker" style="justify-content:center">Legal</div><h1>Privacy Policy</h1><p>Last updated: 26 November 2026</p></div>
+<article class="doc">
+<p>This policy explains how Garuda 360 and Garuda Vision ("we", "us") handle information on this website and in the <b>Garuda 360 publishing app</b>, the private tool we use to publish videos to our own YouTube channels.</p>
+<div class="note">In short: this website collects nothing. Our publishing app only touches YouTube channels we own, and we never sell or share Google user data.</div>
+<h2><small>01</small>This website</h2>
+<p>This is a static website. It uses no cookies, analytics, trackers, advertising or forms, and it doesn't collect personal information. Fonts are loaded from Google Fonts, which may log basic technical data such as your IP address under <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>. Links to YouTube are covered by YouTube's own policies.</p>
+<h2><small>02</small>The publishing app</h2>
+<p>The app is an internal tool. It isn't offered to the public, and only the owners of the Garuda 360 and Garuda Vision channels sign in to it with Google OAuth.</p>
+<h2><small>03</small>Google user data we access</h2>
+<p>When a channel owner signs in, the app requests these YouTube Data API scopes:</p>
+<ul><li><b>youtube.upload</b>: upload videos to the signed-in channel.</li>
+<li><b>youtube.readonly</b>: read the channel's name, ID, videos and playlists so each upload goes to the right place.</li>
+<li><b>youtube.force-ssl</b>: manage playlists, captions and video details on that channel.</li></ul>
+<h2><small>04</small>How we use it</h2>
+<p>We use this data only to publish and organise videos on our own channels. We do <b>not</b> sell, rent or share Google user data, use it for advertising, or use it to train AI or machine-learning models. Humans read it only when that's needed to fix a problem or for security.</p>
+<p>Our use and transfer of information received from Google APIs follows the <a href="https://developers.google.com/terms/api-services-user-data-policy" target="_blank" rel="noopener">Google API Services User Data Policy</a>, including the Limited Use requirements.</p>
+<h2><small>05</small>Storage and security</h2>
+<p>The OAuth token is stored only on our own computer, in a local file that's never uploaded or shared. All communication with YouTube uses encrypted HTTPS.</p>
+<h2><small>06</small>Retention and deletion</h2>
+<p>We keep the token only while uploads need it. Access can be revoked at any time from <a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">Google Account permissions</a>, and we delete the local token file when access is revoked or no longer needed.</p>
+<h2><small>07</small>YouTube API Services</h2>
+<p>The app uses YouTube API Services. By using it you agree to the <a href="https://www.youtube.com/t/terms" target="_blank" rel="noopener">YouTube Terms of Service</a>, and Google's handling of data is described in the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+<h2><small>08</small>Children</h2>
+<p>This website and app aren't directed at children under 13, and we don't knowingly collect their information.</p>
+<h2><small>09</small>Changes</h2>
+<p>If this policy changes, we'll update the date at the top of this page.</p>
+<h2><small>10</small>Contact</h2>
+<p>For questions about this policy, email <a data-email href="#">us</a>.</p>
+</article>
+</main>
+<footer>
+  <div class="wrap">
+    <div class="legal" style="margin-top:0;border-top:0;padding-top:0"><span>© <span class="year">2026</span> Garuda 360 &amp; Garuda Vision</span>
+    <span><a href="index.html">Home</a> · <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a></span></div>
+  </div>
+</footer>
+<div class="toast" id="toast"></div>
+<script src="js/main.js"></script>
+</body>
+</html>
